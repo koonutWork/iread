@@ -1,0 +1,141 @@
+.manday-matrix {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+.manday-matrix h2 {
+  color: black;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.yaml-editor {
+  margin-bottom: 2rem;
+}
+
+.yaml-editor textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  resize: vertical;
+  min-height: 300px;
+  color: black;
+}
+
+.matrix-display {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
+.matrix-display pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: black;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.edit-button,
+.save-button,
+.cancel-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.edit-button {
+  background: #007bff;
+  color: white;
+}
+
+.save-button {
+  background: #28a745;
+  color: white;
+}
+
+.cancel-button {
+  background: #dc3545;
+  color: white;
+}
+
+.edit-button:hover {
+  background: #0056b3;
+}
+
+.save-button:hover {
+  background: #218838;
+}
+
+.cancel-button:hover {
+  background: #c82333;
+}
+
+.error-message {
+  background: #f8d7da;
+  color: #721c24;
+  padding: 0.75rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  border: 1px solid #f5c6cb;
+}
+
+.matrix-info {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 4px;
+  margin-top: 2rem;
+  color: black;
+}
+
+.matrix-info h3 {
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.matrix-info ul {
+  list-style-type: none;
+  padding-left: 1rem;
+  color: black;
+}
+
+.matrix-info li {
+  margin-bottom: 0.5rem;
+  color: black;
+}
+
+.matrix-info ul ul {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.matrix-info strong {
+  color: black;
+} 

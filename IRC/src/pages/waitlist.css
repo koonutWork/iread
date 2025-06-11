@@ -1,0 +1,108 @@
+.waitlist-container {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.waitlist-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.waitlist-container p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.waitlist-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.form-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.input-with-icon {
+  position: relative;
+  width: 100%;
+}
+.input-with-icon input {
+  padding-left: 2.2rem;
+}
+.input-icon {
+  position: absolute;
+  left: 0.7rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: 1rem;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: #222;
+  color: #fff;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+select:focus, input:focus, textarea:focus {
+  outline: none;
+  border-color: #f90;
+}
+
+.country-select {
+  max-width: 180px;
+  border: 1.5px solid #f90;
+  background: #222;
+  color: #fff;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #888;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+.submit-button {
+  background-color: #f90;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.submit-button:hover {
+  background-color: #e80;
+}
+
+.disclaimer {
+  font-size: 0.875rem;
+  margin-top: 1rem;
+  color: #888;
+}

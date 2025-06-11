@@ -1,0 +1,78 @@
+.home-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.home-container h1 {
+  color: #007bff;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.welcome-message {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #495057;
+  border-left: 4px solid #007bff;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.cta-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.cta-button.primary {
+  background: #007bff;
+  color: white;
+}
+
+.cta-button.primary:hover {
+  background: #0056b3;
+}
+
+.cta-button.secondary {
+  background: #6c757d;
+  color: white;
+}
+
+.cta-button.secondary:hover {
+  background: #5a6268;
+}
+
+.version-info {
+  color: #6c757d;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+.loading {
+  color: #6c757d;
+  font-size: 1.1rem;
+  margin: 2rem 0;
+}
+
+.error-message {
+  background: #f8d7da;
+  color: #721c24;
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+  font-size: 1rem;
+  border: 1px solid #f5c6cb;
+} 
