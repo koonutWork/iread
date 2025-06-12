@@ -106,5 +106,3 @@ API Endpoints
 IDEที่ใช้
 1.VSCode
 2.Cusor
-3.Copilot
-4.Gimini
