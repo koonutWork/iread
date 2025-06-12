@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../components/ChatWindow.css';
 
-function Home() {
+function Home({ currentUser }) {
   const [welcomeData, setWelcomeData] = useState(null);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -48,6 +48,11 @@ function Home() {
       <div className="welcome-message">
         {welcomeData?.ai_response}
       </div>
+      {currentUser && (
+        <div className="user-info">
+          <strong>Logged in as: {currentUser.Email}</strong>
+        </div>
+      )}
       <div className="cta-buttons">
         <Link to="/interview" className="cta-button primary">
           เริ่มการสัมภาษณ์
