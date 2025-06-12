@@ -66,9 +66,12 @@ pip install -r [requirements.txt](http://_vscodecontentref_/2)
 
 2. เริ่มต้น Backend
 รันคำสั่งเพื่อเริ่มต้นเซิร์ฟเวอร์ FastAPI:
+fastapi dev .\main.py     
+
 
 3. เริ่มต้น Frontend
 รันคำสั่งเพื่อเริ่มต้น React Development Server:
+npm run dev  
 
 4. เปิดใช้งานระบบ
 เปิดเบราว์เซอร์และเข้าไปที่:
