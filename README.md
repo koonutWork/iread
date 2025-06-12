@@ -97,3 +97,11 @@ API Endpoints
 
 3.เพิ่มการวิเคราะห์ Manday อัตโนมัติ
 -ใช้ AI เพื่อช่วยวิเคราะห์ Manday จากข้อมูล Requirement
+
+
+
+IDEที่ใช้
+1.VSCode
+2.Cusor
+3.Copilot
+4.Gimini
