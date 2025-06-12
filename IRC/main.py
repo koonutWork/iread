@@ -90,7 +90,7 @@ load_dotenv(dotenv_path=env_path)
 # อนุญาตให้ frontend (React) เรียก API ได้
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # หรือระบุ origin ของคุณ
+    allow_origins=["http://localhost:5173"],  # หรือระบุ origin ของคุณ
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
