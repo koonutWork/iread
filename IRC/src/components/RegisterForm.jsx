@@ -52,8 +52,10 @@ function RegisterForm() {
   return (
     <div className="login-container">
       <form onSubmit={handleSubmit} className="login-form">
+      
         <h2>สมัครสมาชิก</h2>
-       
+         {/* Display error message */}
+        {error && <div className="error-message">{error}</div>}
         <div className="form-group">
           <label htmlFor="email">อีเมล</label>
           <input
@@ -89,8 +91,7 @@ function RegisterForm() {
             minLength={8}
           />
         </div>
-         {/* Display error message */}
-         {error && <div className="error-message">{error}</div>}
+         
         <button type="submit" disabled={isLoading}>
           {isLoading ? 'กำลังสมัครสมาชิก...' : 'สมัครสมาชิก'}
         </button>

@@ -79,3 +79,16 @@
   font-size: 0.9rem;
   border: 1px solid #f5c6cb;
 } 
+.register-button {
+  margin-top: 10px;
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.register-button:hover {
+  background-color: #e0e0e0;
+}
