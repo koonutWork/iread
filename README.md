@@ -57,23 +57,25 @@ IRC/
 ---
 
 ## การติดตั้งและการใช้งาน
-
-### 1. ติดตั้ง Dependencies
+### 1. Extract node_modules.zip จาก .zip file ใน node_modules folder
+### 2. ติดตั้ง Dependencies
 รันคำสั่งต่อไปนี้ใน Terminal:
 ```bash
 npm install
 pip install -r [requirements.txt](http://_vscodecontentref_/2)
-
-2. เริ่มต้น Backend
+```
+### 3. เริ่มต้น Backend
 รันคำสั่งเพื่อเริ่มต้นเซิร์ฟเวอร์ FastAPI:
+```bash
 fastapi dev .\main.py     
+```
 
-
-3. เริ่มต้น Frontend
+### 4. เริ่มต้น Frontend
 รันคำสั่งเพื่อเริ่มต้น React Development Server:
+```bash
 npm run dev  
-
-4. เปิดใช้งานระบบ
+```
+### 5. เปิดใช้งานระบบ
 เปิดเบราว์เซอร์และเข้าไปที่:
 http://localhost:8000
 
